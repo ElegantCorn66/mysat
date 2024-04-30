@@ -21,6 +21,27 @@ def CDCL(formula, num_var):
     '''
     Conflict-driven clause learning.
     '''
+def create_watchList(clauses, assigned_sym, num_var):       
+    '''
+    Initialize watchlist by introducing literal clause lookup table and first sets of watched literals.
+    Dictionary and list is the main data structure used.
+    '''
+def Cheff_BCP(clauses, lite_clause_lookup, watched_literals, assigned_sym, variable): 
+    '''
+    Cheff's boolean constrained propagation.
+    '''
+def Analyze_Conflict(assigned_sym, decide_pos):
+    '''
+    Trivial conflict analysis by adding wrong assigned path to clause set
+    '''
+def BackTrack(assigned_sym, dec_level, decide_pos, Imp_count):  
+    '''
+    Backtrack function
+    '''
+def main():       
+    '''
+    main function that prints standard output
+    '''  
 ```
 ### RUN SAT solver
 ```
