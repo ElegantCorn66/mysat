@@ -10,6 +10,6 @@ Output: Satisfying variable assignment, or assertion that the formula is un-sati
 Heuristics: watched literals and VSIDS
 
 ### RUN SAT solver
-'''
+```
 python3 mySAT.py benchmark.cnf
-'''
+```
